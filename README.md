@@ -31,14 +31,14 @@
 
 ***
 <H3>py 파일 exe파일로 build하기</H3>
-'''
+
 > pip install pyinstaller
 
 > pyinstaller -w -F "{filename}.py"
 
 // 아이콘 넣을 때
 > pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
-'''
+
 
 ***
 - <a href="https://drive.google.com/file/d/1-P8NltULUfMU5JBZZ40Gw5uz1HyWG-qp/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
