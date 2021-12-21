@@ -32,12 +32,14 @@
 ***
 <H3>py 파일 exe파일로 build하기</H3>
 
-> pip install pyinstaller
+> pyinstaller 설치
+>> pip install pyinstaller
 
-> pyinstaller -w -F "{filename}.py"
+> build exe file
+>> pyinstaller -w -F "{filename}.py"
 
-// 아이콘 넣을 때
-> pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
+> 아이콘 넣을 때
+>> pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
 
 
 ***
