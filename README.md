@@ -16,7 +16,7 @@
   <img src="https://images.velog.io/images/wadekang/post/ac800c8d-c7e1-4d1a-ba6f-1bef5e15dbc5/%EB%82%B4%EC%9A%A9.png" style="margin:20px auto"><br>
   <img src="https://images.velog.io/images/wadekang/post/9b2fc71d-0cfc-4649-bd69-21b0ce42e800/%EC%8B%9C%EA%B0%84%EC%9E%85%EB%A0%A5.png" style="margin:20px auto"><br>
   <img src="https://images.velog.io/images/wadekang/post/a894cff6-7b57-4954-83f9-8d84ecd62051/%EC%A2%85%EB%A3%8C.png" style="margin:20px auto"><br>
-  <img src="https://images.velog.io/images/wadekang/post/bd349776-bba4-47cb-b548-72e1b1f2fc7e/%EC%99%84%EB%A3%8C.png" alt="text" width="number" style="margin:5px auto" />PyAutoGui로 구현하여 디자인은 전혀,,,😅
+  <img src="https://images.velog.io/images/wadekang/post/bd349776-bba4-47cb-b548-72e1b1f2fc7e/%EC%99%84%EB%A3%8C.png" alt="text" width="number" style="margin:5px auto" /><br>PyAutoGui로 구현하여 디자인은 전혀,,,😅
 </p>
 2. 입력 받은 시간(현 시간 이후로 24시간 이내)을 기준으로 카카오톡 메세지 전송을 Schedule 한다.<br>
 3. 시간이 되면 PC 카카오톡을 실행시켜 입력한 채팅방 검색 후 채팅방에 입장하여 메세지를 전송한다. 
