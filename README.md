@@ -9,7 +9,7 @@
 ***
 
 <H3>프로그램 동작 프로세스</H3>
-1. PyAutoGui Prompt를 통해 사용자로부터 예약할 메세지 개수, 각자의 채팅방 이름 및 내용, 예약할 시간을 입력받는다. <br>
+1. PyAutoGui Prompt를 통해 사용자로부터 예약할 메세지 개수, 각자의 채팅방 이름 및 내용, 예약할 시간을 입력받는다. <br><br>
 <p align="center">
   <img src="https://images.velog.io/images/wadekang/post/a8d133f3-f88a-40b6-b7c5-4b04208dd4d0/%EB%A9%94%EC%84%B8%EC%A7%80%EA%B0%9C%EC%88%98.png" style="margin:20px auto"><br>
   <img src="https://images.velog.io/images/wadekang/post/11077137-905c-4270-8ca8-b3ecb3292cdc/%EC%B1%84%ED%8C%85%EB%B0%A9%20%EC%9D%B4%EB%A6%84.png" style="margin:20px auto"><br>
