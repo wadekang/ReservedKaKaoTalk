@@ -43,4 +43,5 @@
 
 
 ***
+<H3>exe 실행파일 다운로드</H3>
 - <a href="https://drive.google.com/file/d/1-P8NltULUfMU5JBZZ40Gw5uz1HyWG-qp/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
