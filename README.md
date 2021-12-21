@@ -38,7 +38,6 @@ pyinstaller -w -F "{filename}.py"
 
 // 아이콘 넣을 때
 pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
-
 ```
 
 ***
