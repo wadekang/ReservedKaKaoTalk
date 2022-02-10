@@ -5,9 +5,8 @@
 <H3>사용된 주요 라이브러리</H3>
 1. pyautogui & opencv - 현재 화면에서 이미지를 찾아 클릭, 마우스 제어, 키보드 제어 등<br>
 2. schedule - 지정한 시간에 함수가 실행되도록 예약<br>
-3. pyqt5 - 프로그램의 GUI 구성
+3. pyqt5 - 프로그램의 GUI 구성<br>
 4. pyinstaller - py 파일을 exe 파일로 빌드
-
 
 ***
 
