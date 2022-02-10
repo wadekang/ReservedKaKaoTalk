@@ -26,6 +26,17 @@
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyGwHr%2Fbtrs21QV3XM%2FA6oaAXrRejMuzIt4REuAmk%2Fimg.png" width="33%" />
 </div>
 
+<p>예약할 메세지 개수를 입력하면, 2번 그림과 같이 각 예약 별로 내용을 입력할 수 있도록 예약을 선택할 수 있습니다. 각 예약 별로 다른 채팅방에, 다른 내용으로, 다른 시간에 메세지를 전송할 수 있습니다. 오른쪽 위에 '전송 후 컴퓨터 종료' 를 체크하면 예약한 시간에 메세지가 전송된 후 컴퓨터가 종료됩니다. 내용을 다 입력했다면 Next 버튼을, 메세지 개수를 다시 입력하려면 Back 버튼을 누릅니다.</p>
+<p>※ 시간은 24H 형식으로 입력합니다. 오전 8:30 -> 08:30, 오후 8:08 -> 20:08</p>
+<p>※ 예를 들어 현재 시간이 10일 21:30분 인데 다음날 아침(11일) 08:30분에 메세지를 전송하고 싶다면 08:30으로 입력하시면 됩니다. 현재 시간 기준 이후로 입력한 시간을 만나면 메세지가 전송됩니다.</p>
+
+<div style="text-align: center;">
+  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FION3y%2FbtrsY8RrvIM%2FSpvciZVl1FXHa0gCaEsre1%2Fimg.png" width="49%" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLxUSC%2Fbtrs2nG1Q14%2FhEszKybuYfGe0Pd3sQ8Vu1%2Fimg.png" width="49%" />
+</div>
+
+<p>내용을 모두 입력한 후 Next 버튼을 누르면 다음과 같이 확인하는 화면이 나옵니다. 예약 내역이 잘못되었다면 Back 버튼을 눌러 다시 내용을 입력하고, 이대로 예약하려면 Confirm 버튼을 누릅니다. Confirm을 누르면 오른쪽 사진과 같이 작은 확인 창이 뜨고 예약이 완료됩니다.</p>
+
 ***
 
 <H3>프로그램 사용 시 주의사항! 🙆‍♂️</H3>
