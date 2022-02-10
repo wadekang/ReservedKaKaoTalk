@@ -14,7 +14,8 @@
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbTkZi1%2Fbtrs3VJKR73%2FfzeA2kBWlZ7mVVrT7LVdXK%2Fimg.png" style="margin:20px auto">  
 </p>
-exe 파일을 다운로드 받아 실행하면 다음과 같이 프로그램이 실행됩니다. (다운로드 링크는 아래에 있습니다.)<br>
+exe 파일을 다운로드 받아 실행하면 다음과 같이 프로그램이 실행됩니다. (다운로드 링크는 아래에 있습니다.)
+
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAA7Xc%2Fbtrs2EIAGEq%2FkpyvPCc7LoixMS1fmCYhQK%2Fimg.png" style="margin:20px auto">
 </p>
