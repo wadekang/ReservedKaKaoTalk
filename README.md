@@ -43,7 +43,6 @@
 - Windows에서만 가능해요! 🙆‍♂️<br>
 - 메세지 전송을 예약한 후 컴퓨터가 반드시 켜져있어야 해요! 🙆‍♂️ (절전, 시스템종료 X)<br>
 - PC 카카오톡에 로그인 되어 있어야 해요! 🙆‍♂️<br>
-- 코드로 마우스, 키보드를 제어해서 메세지를 전송하는 방식이라 메세지를 전송하는 순간에는 다른 인터럽트를 주시면 안돼요! 🙅‍♂️<br> (예약한 시간까지는 괜찮아요! 작동되는 그 순간에만 가만히 두시면 됩니다!)<br>
 
 ***
 <H3>py 파일 exe파일로 build하기</H3>
@@ -52,7 +51,7 @@
 >> pip install pyinstaller
 
 > build exe file
->> pyinstaller -w -F "{filename}.py"
+>> pyinstaller -w -F "카카오톡 예약전송.py"
 
 > 아이콘 넣을 때
 >> pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
@@ -60,4 +59,4 @@
 
 ***
 <H3>exe 실행파일 다운로드</H3>
-- <a href="https://drive.google.com/file/d/1-P8NltULUfMU5JBZZ40Gw5uz1HyWG-qp/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
+- <a href="https://drive.google.com/file/d/1wUL1TMew9p-KXiZ6G1naLaxBlCzxzR6v/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
