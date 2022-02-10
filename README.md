@@ -21,9 +21,9 @@
 <p>예약할 메세지 개수를 입력한 후 Start 버튼을 누르면 다음과 같이 내용을 입력할 화면이 나옵니다.</p>
 
 <div style="text-align: center;">
-  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fvo79c%2Fbtrs2EV1ZTQ%2FAzsSk7tgF2F6YM3EHRriI1%2Fimg.png" width="33%" />
-  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbp9HlA%2Fbtrs1SN3rHQ%2FWjOk6zSXkKC6YDRNYKKK2k%2Fimg.png" width="33%" />
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyGwHr%2Fbtrs21QV3XM%2FA6oaAXrRejMuzIt4REuAmk%2Fimg.png" width="33%" />
+  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fvo79c%2Fbtrs2EV1ZTQ%2FAzsSk7tgF2F6YM3EHRriI1%2Fimg.png" width="32%" />
+  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbp9HlA%2Fbtrs1SN3rHQ%2FWjOk6zSXkKC6YDRNYKKK2k%2Fimg.png" width="32%" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyGwHr%2Fbtrs21QV3XM%2FA6oaAXrRejMuzIt4REuAmk%2Fimg.png" width="32%" />
 </div>
 
 <p>예약할 메세지 개수를 입력하면, 2번 그림과 같이 각 예약 별로 내용을 입력할 수 있도록 예약을 선택할 수 있습니다. 각 예약 별로 다른 채팅방에, 다른 내용으로, 다른 시간에 메세지를 전송할 수 있습니다. 오른쪽 위에 '전송 후 컴퓨터 종료' 를 체크하면 예약한 시간에 메세지가 전송된 후 컴퓨터가 종료됩니다. 내용을 다 입력했다면 Next 버튼을, 메세지 개수를 다시 입력하려면 Back 버튼을 누릅니다.</p>
@@ -47,15 +47,16 @@
 ***
 <H3>py 파일 exe파일로 build하기</H3>
 
+> github repository clone
+>> git clone https://github.com/wadekang/ReservedKaKaoTalk.git
+
+clone 한 후 카카오톡 예약전송.spec 파일의 workspace='YOUR WORK SPACE' 이 부분에서 YOUR WORK SPACE 부분을 해당 폴더 경로로 바꿔줍니다.
+
 > pyinstaller 설치
 >> pip install pyinstaller
 
 > build exe file
->> pyinstaller -w -F "카카오톡 예약전송.py"
-
-> 아이콘 넣을 때
->> pyinstaller -w -F --icon={iconfile_path} "{filename}.py"
-
+>> pyinstaller --clean "카카오톡 예약전송.spec"
 
 ***
 <H3>exe 실행파일 다운로드</H3>
