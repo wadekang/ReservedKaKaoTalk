@@ -11,7 +11,9 @@
 ***
 
 <H3>프로그램 사용법</H3>
-<p>[##_Image|kage@bTkZi1/btrs3VJKR73/fzeA2kBWlZ7mVVrT7LVdXK/img.png|CDM|1.3|{"originWidth":130,"originHeight":166,"style":"alignCenter","filename":"icon capture.png"}_##]</p>
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbTkZi1%2Fbtrs3VJKR73%2FfzeA2kBWlZ7mVVrT7LVdXK%2Fimg.png" style="margin:20px auto">  
+</p>
 
 
 1. PyAutoGui Prompt를 통해 사용자로부터 예약할 메세지 개수, 각자의 채팅방 이름 및 내용, 예약할 시간을 입력받는다. <br><br>
