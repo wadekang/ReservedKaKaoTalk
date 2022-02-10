@@ -3,7 +3,7 @@
 
 block_cipher = None
 
-workspace = 'YOUR WORK SPACE'
+workspace = 'YOUR WORK SPACE' # change here
 
 a = Analysis(['카카오톡 예약전송.py'],
              pathex=[workspace],
