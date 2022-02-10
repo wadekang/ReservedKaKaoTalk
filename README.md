@@ -21,9 +21,9 @@
 <p>예약할 메세지 개수를 입력한 후 Start 버튼을 누르면 다음과 같이 내용을 입력할 화면이 나옵니다.</p>
 
 <div style="text-align: center;">
-  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fvo79c%2Fbtrs2EV1ZTQ%2FAzsSk7tgF2F6YM3EHRriI1%2Fimg.png" width="250px" />
-  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbp9HlA%2Fbtrs1SN3rHQ%2FWjOk6zSXkKC6YDRNYKKK2k%2Fimg.png" width="250px" />
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyGwHr%2Fbtrs21QV3XM%2FA6oaAXrRejMuzIt4REuAmk%2Fimg.png" width="250px" />
+  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fvo79c%2Fbtrs2EV1ZTQ%2FAzsSk7tgF2F6YM3EHRriI1%2Fimg.png" width="33%" />
+  <img style="margin-right: 10px;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbp9HlA%2Fbtrs1SN3rHQ%2FWjOk6zSXkKC6YDRNYKKK2k%2Fimg.png" width="33%" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyGwHr%2Fbtrs21QV3XM%2FA6oaAXrRejMuzIt4REuAmk%2Fimg.png" width="33%" />
 </div>
 
 ***
