@@ -3,12 +3,17 @@
 ***
 
 <H3>사용된 주요 라이브러리</H3>
-1. PyAutoGui - 현재 화면에서 이미지를 찾아 클릭, 키보드, 마우스 제어 등<br>
-2. Schedule - 설정한 시간에 따라 코드가 실행되도록 하는 라이브러리
+1. pyautogui & opencv - 현재 화면에서 이미지를 찾아 클릭, 마우스 제어, 키보드 제어 등<br>
+2. schedule - 지정한 시간에 함수가 실행되도록 예약<br>
+3. pyqt5 - 프로그램의 GUI 구성
+4. pyinstaller - py 파일을 exe 파일로 빌드
 
 ***
 
-<H3>프로그램 동작 프로세스</H3>
+<H3>프로그램 사용법</H3>
+<p>[##_Image|kage@bTkZi1/btrs3VJKR73/fzeA2kBWlZ7mVVrT7LVdXK/img.png|CDM|1.3|{"originWidth":130,"originHeight":166,"style":"alignCenter","filename":"icon capture.png"}_##]</p>
+
+
 1. PyAutoGui Prompt를 통해 사용자로부터 예약할 메세지 개수, 각자의 채팅방 이름 및 내용, 예약할 시간을 입력받는다. <br><br>
 <p align="center">
   <img src="https://images.velog.io/images/wadekang/post/a8d133f3-f88a-40b6-b7c5-4b04208dd4d0/%EB%A9%94%EC%84%B8%EC%A7%80%EA%B0%9C%EC%88%98.png" style="margin:20px auto"><br>
