@@ -52,7 +52,7 @@
 
 clone 한 후 카카오톡 예약전송.spec 파일의 workspace='YOUR WORK SPACE' 이 부분에서 YOUR WORK SPACE 부분을 해당 폴더 경로로 바꿔줍니다.
 
-> pyinstaller 설치
+> pyinstaller 설치 (pyinstaller 뿐 아니라 프로그램에 사용된 package가 모두 설치되어 있어야 합니다. pyautogui, pyqt5 )
 >> pip install pyinstaller
 
 > build exe file
