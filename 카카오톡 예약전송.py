@@ -136,7 +136,7 @@ def kakao_run():
         raise
     
 def img_click(img_path):
-    location = pyautogui.locateCenterOnScreen(img_path, confidence=0.65)
+    location = pyautogui.locateCenterOnScreen(img_path, confidence=0.75)
     x, y = location
     
     pyautogui.moveTo(x, y)
@@ -174,7 +174,7 @@ def data_load():
         mainui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\mainui.ui')
         inputui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\inputui.ui')
         confirmui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\confirmui.ui')
-        chatimg = os.path.join(getattr(sys, '_MEIPASS'), 'img\chat.png')
+        chatimg = os.path.join(getattr(sys, '_MEIPASS'), 'img\chat_focus_badge.png')
         searchimg = os.path.join(getattr(sys, '_MEIPASS'), 'img\search.png')
 
     except:
@@ -182,7 +182,7 @@ def data_load():
         mainui = 'ui\mainui.ui'
         inputui = 'ui\inputui.ui'
         confirmui = 'ui\confirmui.ui'
-        chatimg = 'img\chat.png'
+        chatimg = 'img\chat_focus_badge.png'
         searchimg = 'img\search.png'
 
 def program_exited():
