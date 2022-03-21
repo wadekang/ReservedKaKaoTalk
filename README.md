@@ -60,4 +60,4 @@ clone 한 후 카카오톡 예약전송.spec 파일의 workspace='YOUR WORK SPAC
 
 ***
 <H3>exe 실행파일 다운로드</H3>
-- <a href="https://drive.google.com/file/d/1wUL1TMew9p-KXiZ6G1naLaxBlCzxzR6v/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
+- <a href="https://drive.google.com/file/d/1q5YqaJY1e7r28C3VcALVT4Cmd6jAyeUT/view?usp=sharing" target="_blank">프로그램 다운로드 링크</a>
