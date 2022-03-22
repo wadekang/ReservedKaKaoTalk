@@ -20,7 +20,8 @@ icon_path = None
 mainui = None
 inputui = None
 confirmui = None
-chatimg = None
+chatimg_badge = None
+chatimg_nobadge = None
 searchimg = None
 
 class StartWindow(QMainWindow):
@@ -124,7 +125,7 @@ class ConfirmWindow(QWidget):
 
 def init():
     pyautogui.FAILSAFE = False
-    pyautogui.PAUSE = 0.5
+    pyautogui.PAUSE = 0.8
     
 def kakao_run():
     kakao_path = 'C:/Program Files (x86)/Kakao/KakaoTalk/KakaoTalk.exe'
@@ -135,8 +136,20 @@ def kakao_run():
         print('[ERROR] Execute KaKaoTalk')
         raise
     
-def img_click(img_path):
-    location = pyautogui.locateCenterOnScreen(img_path, confidence=0.75)
+def chaticon_click(chatimg_list):
+    for chatimg in chatimg_list:
+        location = pyautogui.locateCenterOnScreen(chatimg, confidence=0.80)
+
+        if not location is None:
+            x, y = location
+
+            pyautogui.moveTo(x, y)
+            pyautogui.click()
+
+            break
+
+def search_click(img_path):
+    location = pyautogui.locateCenterOnScreen(img_path, confidence=0.80)
     x, y = location
     
     pyautogui.moveTo(x, y)
@@ -158,32 +171,39 @@ def send_message_and_exit(msg):
 
 def reserved_transmission(info):
     kakao_run()
+
+    time.sleep(2)
     
-    img_click(chatimg)
-    img_click(searchimg)
+    chatimg_list = [chatimg_badge, chatimg_nobadge]
+
+    chaticon_click(chatimg_list)
+    search_click(searchimg)
     chatroom_search_and_enter(info['chatroom_name'])
     send_message_and_exit(info['msg'])
    
     return schedule.CancelJob
 
 def data_load():
-    global icon_path, mainui, inputui, confirmui, chatimg, searchimg
+    global icon_path, mainui, inputui, confirmui, chatimg_badge, chatimg_nobadge, searchimg
 
     try:
-        icon_path = os.path.join(getattr(sys, '_MEIPASS'), 'icon\paper-plane.png')
-        mainui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\mainui.ui')
-        inputui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\inputui.ui')
-        confirmui = os.path.join(getattr(sys, '_MEIPASS'), 'ui\confirmui.ui')
-        chatimg = os.path.join(getattr(sys, '_MEIPASS'), 'img\chat_focus_badge.png')
-        searchimg = os.path.join(getattr(sys, '_MEIPASS'), 'img\search.png')
+        icon_path = os.path.join(getattr(sys, '_MEIPASS'), 'icon/paper-plane.png')
+        mainui = os.path.join(getattr(sys, '_MEIPASS'), 'ui/mainui.ui')
+        inputui = os.path.join(getattr(sys, '_MEIPASS'), 'ui/inputui.ui')
+        confirmui = os.path.join(getattr(sys, '_MEIPASS'), 'ui/confirmui.ui')
+        chatimg_badge = os.path.join(getattr(sys, '_MEIPASS'), 'img/chat_badge.png')
+        chatimg_nobadge = os.path.join(getattr(sys, '_MEIPASS'), 'img/chat_nobadge.png')
+        searchimg = os.path.join(getattr(sys, '_MEIPASS'), 'img/search.png')
 
     except:
-        icon_path = 'icon\paper-plane.png'
-        mainui = 'ui\mainui.ui'
-        inputui = 'ui\inputui.ui'
-        confirmui = 'ui\confirmui.ui'
-        chatimg = 'img\chat_focus_badge.png'
-        searchimg = 'img\search.png'
+        print('except')
+        icon_path = 'icon/paper-plane.png'
+        mainui = 'ui/mainui.ui'
+        inputui = 'ui/inputui.ui'
+        confirmui = 'ui/confirmui.ui'
+        chatimg_badge = 'img/chat_badge.png'
+        chatimg_nobadge = 'img/chat_nobadge.png'
+        searchimg = 'img/search.png'
 
 def program_exited():
     global num_reserved, chatroom, chatmsg, timelist, shutdown
@@ -239,4 +259,3 @@ if __name__ == "__main__" :
                 os.system('shutdown -s -f')
             else:
                 sys.exit()
-
